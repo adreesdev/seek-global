@@ -60,7 +60,6 @@ const Fees = () => {
                 sx={{
                   position: "relative",
                   height: "100%",
-                  // border: "1px solid red",
                   "&:before": {
                     content: "''",
                     position: "absolute",

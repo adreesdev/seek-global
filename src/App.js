@@ -7,14 +7,14 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
 
 function App() {
-	return (
-		<Box>
-			<ToastContainer />
-			<Navbar />
-			<Home />
-			<Footer />
-		</Box>
-	);
+  return (
+    <Box>
+      <ToastContainer />
+      <Navbar />
+      <Home />
+      <Footer />
+    </Box>
+  );
 }
 
 export default App;

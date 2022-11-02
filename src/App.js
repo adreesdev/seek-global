@@ -5,13 +5,20 @@ import { Box } from "@mui/material";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Main from "./components/Refferal/Main";
 
 function App() {
 	return (
 		<Box>
 			<ToastContainer />
 			<Navbar />
-			<Home />
+			<BrowserRouter>
+				<Routes>
+					<Route path="/" element={<Home />} />
+					<Route path="/refferal" element={<Main />} />
+				</Routes>
+			</BrowserRouter>
 			<Footer />
 		</Box>
 	);

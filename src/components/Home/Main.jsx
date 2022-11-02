@@ -38,6 +38,7 @@ const Main = () => {
 									fontWeight: "400",
 									fontSize: "48px",
 									lineHeight: "58px",
+									color: "#F1620A",
 								}}
 							>
 								SEEK
@@ -49,7 +50,6 @@ const Main = () => {
 									fontWeight: "400",
 									fontSize: "48px",
 									lineHeight: "58px",
-									color: "#F1620A",
 								}}
 							>
 								GOLD

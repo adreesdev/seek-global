@@ -7,11 +7,8 @@ import Home from "./components/Home/Home";
 import Footer from "./components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Main from "./components/Refferal/Main";
-<<<<<<< HEAD
 import GetStarted from "./components/GetStarted/GetStarted";
-=======
 import HowItWorks from "./components/How to works/how-it-works";
->>>>>>> 6cb72393281486d0f0ae754f435bd7d8d34a63a7
 
 function App() {
   return (

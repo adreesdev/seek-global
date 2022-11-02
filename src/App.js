@@ -4,13 +4,15 @@ import "react-toastify/dist/ReactToastify.css";
 import { Box } from "@mui/material";
 import Navbar from "./components/Navbar";
 import Home from "./components/Home/Home";
+import Footer from "./components/Footer";
 
 function App() {
 	return (
 		<Box>
+			<ToastContainer />
 			<Navbar />
 			<Home />
-			<ToastContainer />
+			<Footer />
 		</Box>
 	);
 }
